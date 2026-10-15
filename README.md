@@ -126,6 +126,8 @@ AtomicVLA requires structured reasoning annotations for each demonstration episo
 
 Each entry maps an episode ID to a list of atomic skill segments, specifying the frame range, the skill type, and optional reasoning text.
 
+We released the json of LIBERO for training. You can download the dataset from [modified_libero_rlds](https://huggingface.co/datasets/openvla/modified_libero_rlds) and use our conversion [script](https://github.com/zhanglk9/AtomicVLA/blob/main/examples/libero/convert_libero_data_to_lerobot.py) to convert it into the LeRobot format. Please refer to Fig. 8 in the paper’s appendix and the code in [InternVideo2](https://github.com/zhanglk9/AtomicVLA/blob/main/InternVideo2) for guidance on adapting the annotation pipeline to your own dataset. 
+
 ## Citation
 If you find our work useful, please consider citing:
 

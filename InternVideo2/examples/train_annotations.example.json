@@ -1,0 +1,21 @@
+{
+  "0": {
+    "all_frames": 120,
+    "total_steps": 2,
+    "segments": [
+      {
+        "action_name": "pick up the cup and place it on the plate",
+        "primary_action_verb": "pick",
+        "start_frame": 0,
+        "end_frame": 59,
+        "update_chain_of_thought": "the atomic skill is place"
+      },
+      {
+        "action_name": "pick up the cup and place it on the plate",
+        "primary_action_verb": "place",
+        "start_frame": 60,
+        "end_frame": 120
+      }
+    ]
+  }
+}
